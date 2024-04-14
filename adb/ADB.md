@@ -1,0 +1,1 @@
+Recommended use for ADB access to your device is to prepare a seperate sd card and place teh em_ui.sh and usb_enabler.sh files in the root of an exfat formatted micro sd card.  This will give you access to the eMMC device on the device and allow you to make changes and tinker with the device at a more direct level of the operating of the hardware.

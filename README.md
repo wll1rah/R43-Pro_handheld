@@ -13,3 +13,6 @@ This issolution is fromt he Original m17 modification that Taki Udon did for the
 # Extras
 If you want to make changes to the default cores for a specific system, edit the /.emulationstation/es_system.cfg file. You can find a list of available cores in the /cores/ folder on the root of your SD.  Just remember to make a backup for modifying so thatyou can get back to normal when or if it fails, not everything seems to work as it should.
 Place your Dreamcast roms into a folder called dreamcast in the roms folder onthe root of the sd card. Flycast will search for the /dc/dc_boot.bin and /dc/dc_flash.bin in /retroarch/system/, so this and other bios files should be placed in this folder.  Adding the bios for pcsxrearmed improves the performance for PSX for instance while most of the systems don't need bios files to make them work if you are having issue it's a good idea to try them to see if they fix your issues.
+
+# Shaders
+If you are looking to add shaders to your device they simpley need to be places in $ retroarch/shaders.  As the device supports OpenGL ES 3.2 and below you'll want to use the shaders compiled for Opengl.  They won't be enabled by default unless you enable this by default in the retroarch quick  menu and then save the game overrides file to have it enable them on the next start of the game.
